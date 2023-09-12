@@ -1,0 +1,36 @@
+.navItem{
+    position: relative;
+}
+li{
+    list-style: none;
+}
+div{
+    display: inline-block;
+}
+.subMenu{
+    text-decoration: none;
+    list-style: none;
+    position: absolute;
+    left:0;
+    top:0;
+    padding: 0;
+    visibility: hidden;
+}
+
+.navItem:hover .subMenu{
+    visibility: visible;
+}
+div{
+    transform: rotateY(10deg);
+}
+.navItem:hover div{
+    transform: rotateX(180deg);
+    color: red;
+}
+.div{
+    display: flex;
+}
+
+.subMenu li:hover{
+    background-color: brown;
+}
